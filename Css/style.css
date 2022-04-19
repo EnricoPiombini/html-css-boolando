@@ -7,11 +7,13 @@
 .navbar {
     display: flex;
     justify-content: space-around;
+    min-height: 65px;
     align-items: center;
     width: 100%;
     padding: 0.5rem;
     background-color: #FF6900;
     position: fixed;
+
 }
 
 .navbar .navbar-content {
@@ -95,4 +97,17 @@
     position: absolute;
     top: 0;
     right: 0;
+}
+.ft{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 65px;
+    background-color: black;
+    min-height: 80px;
+    color: blanchedalmond;
+}
+.ft-link{
+    text-decoration: none;
+    color: blanchedalmond;
 }
