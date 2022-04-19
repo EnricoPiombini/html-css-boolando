@@ -63,9 +63,7 @@
     display: none;
 }
 
-.product:hover .product-favorite {
-    opacity: 1;
-}
+
 
 .product:hover .product-img {
     width: 130%;
