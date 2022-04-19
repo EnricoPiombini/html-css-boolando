@@ -14,6 +14,10 @@
     position: fixed;
 }
 
+.navbar .navbar-content {
+    color: blanchedalmond;
+}
+
 .navbar-logo .logo-boolean {
     width: 120px;
     height: 40px;
@@ -22,27 +26,41 @@
 
 .navbar .navbar-icons {
     display: flex;
+    color: blanchedalmond;
 }
-.container{
+
+.container {
     width: 100%;
     max-width: 960px;
     min-width: 300px;
     margin: 0 auto;
     padding: 2rem 1rem;
+    padding-top: 120px;
 }
 
 .row {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
-  }
-  
-  .col {
+}
+
+.col {
     flex-basis: calc(100% / 3 - 25px);
     flex-grow: 1;
-  }
+}
 
-.product .product-img{
+.product {
+    position: relative;
+}
+
+.product .product-img {
     width: 100%;
+
+}
+
+.product .product-discount {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
 
 }
