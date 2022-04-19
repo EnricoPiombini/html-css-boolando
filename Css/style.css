@@ -64,7 +64,6 @@
 }
 
 
-
 .product:hover .product-img {
     width: 130%;
     left: -15%;
@@ -90,15 +89,6 @@
     bottom: 30px;
     left: 40px;
 
-}
-
-.product:hover .product-img {
-    display: block;
-}
-
-
-.product:hover .product-hover {
-    display: none;
 }
 
 .fa-solid {
