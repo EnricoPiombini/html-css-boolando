@@ -13,7 +13,12 @@
     padding: 0.5rem;
     background-color: #FF6900;
     position: fixed;
+    z-index: 2000;
 
+}
+
+hr {
+    background-color: darkgrey;
 }
 
 .navbar .navbar-content {
@@ -21,8 +26,8 @@
 }
 
 .navbar-logo .logo-boolean {
-    width: 120px;
-    height: 40px;
+    width: 145px;
+    height: 30px;
 
 }
 
@@ -53,6 +58,12 @@
 
 .product {
     position: relative;
+}
+
+.user-button,
+.hearth-button,
+.shopping-bag {
+    padding: 5px;
 }
 
 .product .product-img {
@@ -97,8 +108,11 @@
     position: absolute;
     top: 0;
     right: 0;
+    padding: 1rem;
+
 }
-.ft{
+
+.ft {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -107,7 +121,8 @@
     min-height: 80px;
     color: blanchedalmond;
 }
-.ft-link{
+
+.ft-link {
     text-decoration: none;
     color: blanchedalmond;
 }
