@@ -55,7 +55,29 @@
 
 .product .product-img {
     width: 100%;
+    object-fit: cover;
+    position: relative;
+}
 
+.product .product-img-hover {
+    display: none;
+}
+
+.product:hover .product-favorite {
+    opacity: 1;
+}
+
+.product:hover .product-img {
+    width: 130%;
+    left: -15%;
+}
+
+.product:hover .product-img-hover {
+    display: block;
+}
+
+.product:hover .product-img-default {
+    display: none;
 }
 
 .product .product-discount {
@@ -64,15 +86,24 @@
     left: 0px;
 
 }
-.product-discount-description{
+
+.product-discount-description {
     position: absolute;
     bottom: 30px;
     left: 40px;
 
 }
 
+.product:hover .product-img {
+    display: block;
+}
 
-.fa-solid{
+
+.product:hover .product-hover {
+    display: none;
+}
+
+.fa-solid {
     position: absolute;
     top: 0;
     right: 0;
