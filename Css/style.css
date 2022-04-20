@@ -14,7 +14,10 @@
     background-color: #FF6900;
     position: fixed;
     z-index: 2000;
+}
 
+.price{
+    color: red;
 }
 
 hr {
@@ -94,13 +97,23 @@ hr {
     position: absolute;
     bottom: 30px;
     left: 0px;
-
+    background-color: red;
 }
+
 
 .product-discount-description {
     position: absolute;
     bottom: 30px;
     left: 40px;
+    background-color: green;
+
+}
+
+.product-discount-description-only{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    background-color: green;
 
 }
 
